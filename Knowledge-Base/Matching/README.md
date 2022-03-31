@@ -11,4 +11,4 @@ The matching module is used for preliminary filtering / candidate generation.
 - **Local Sensitive Hashing, LSH**
    - Spark MLlib BucketedRandomProjectionLSH
       - Parameters: BucketLength, NumHashTables
-
+- [Faiss](https://github.com/facebookresearch/faiss) 
