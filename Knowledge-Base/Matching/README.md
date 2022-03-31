@@ -8,5 +8,7 @@ The matching module is used for preliminary filtering / candidate generation.
 - Factorization Machine (FM) Embedding
 - Graph Neural Network (GNN) Based Embedding
 - Collaborative Filtering
+- **Local Sensitive Hashing, LSH**
+   - Spark MLlib BucketedRandomProjectionLSH
+      - Parameters: BucketLength, NumHashTables
 
-**Local Sensitive Hashing, LSH**
