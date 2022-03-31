@@ -47,3 +47,9 @@ Given individual features Xi ∈ Rni and Xj ∈ Rnj, a combinatorial feature Xi,
 Combinatorial features also have sparse and dense representations. 
 - An example of sparse representation is a CampaignId×MatchType feature, which is a one-hot vector of 10, 001 × 4 = 40, 004 dimensions. 
 - An example of a dense representation counts how many ad clicks for a specific CampaignId and MatchType combination. The dimension for the dense representation is the same as its sparse counterpart.
+
+**Deep Crossing avoids using combinatorial features. It works with both sparse and dense individual features.**
+
+### Model Architecture
+
+The input is a set of individual features. The model has four types of layers including the Embedding, the Stacking, the Residual Unit, and the Scoring Layer. The objective function is log loss for our web-scale application but can be easily customized to soft-max or other functions.
