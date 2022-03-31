@@ -9,4 +9,4 @@ Deep Crossing model is a deep neural network that automatically combines feature
 ### Transformation of raw features
 
 - **Combinatorial features (Cross features):** construct functions based on a combination of multiple features, and use their output as the input to a
-learner.
+learner. More specifically, it takes in individual features such as text, categorical, ID, and numerical features, and searches for the optimal combinations automatically based on the specific task.
