@@ -59,3 +59,13 @@ The input is a set of individual features. The model has four types of layers in
 Embedding is applied per individual feature to transform the input features. The embedding layer consists of a single layer of a neural network, with the general form: XOj = max(0, Wj x Xij + bj ), where j indexes the individual feature, Xij ∈ Rnj is the input feature, Wj is an mj × nj matrix, b ∈ Rnj, and XOjis the embedded feature. When mj < nj , embedding is used to reduce the dimensionality of the input feature. The per element max operator is usually referred to as a rectified linear unit (ReLU) in the context of neural networks. 
 
 The output features are then stacked (concatenated) into one vector as the input to the next layer: XO = [XO0 , XO1 , · · · , XOK], where K is the number of input features.
+
+Note that both {Wj} and {bj} are the parameters of the network, and will be optimized together with the other parameters in the network. This is an important property of embedding in Deep Crossing. Unlike the embedding only approaches such as word2vec, it is an integral part of the overall optimization process.
+
+**Residual Layers**
+
+The Residual Unit is the basic building block of the [Residual Net](https://arxiv.org/pdf/1512.03385.pdf) that claimed the world record in the ImageNet contest.
+
+Building Block of Residual Learning 
+
+<img src="https://github.com/zixi-liu/Sparrow-Recsys/blob/main/Knowledge-Base/Img/residual-learning.png" alt="residual-learning" width = "600px" />
