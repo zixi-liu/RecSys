@@ -68,4 +68,4 @@ The Residual Unit is the basic building block of the [Residual Net](https://arxi
 
 Building Block of Residual Learning 
 
-<img src="https://github.com/zixi-liu/Sparrow-Recsys/blob/main/Knowledge-Base/Img/residual-learning.png" alt="residual-learning" width = "600px" />
+<img src="https://github.com/zixi-liu/Sparrow-Recsys/blob/main/Knowledge-Base/Img/residual-learning.png" alt="residual-learning" width = "400px" />
