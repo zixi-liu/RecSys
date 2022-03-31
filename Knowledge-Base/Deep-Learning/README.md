@@ -32,3 +32,10 @@ available at run-time
 - Click: An indication of whether an impression was clicked by a user. A click is usually logged with other information available at the run-time
 - Click through rate: Total number of clicks over total number of impressions
 - Click Prediction: A critical model of the platform that predicts the likelihood a user clicks on a given ad for a given query
+
+**Individual Features**
+
+Each individual feature Xi is represented as a vector.
+- For text features such as a query, one option is to convert the string into a tri-letter gram with 49, 292 dimensions;
+- Categorical input such as MatchType is represented by a one-hot vector, where exact match is [1, 0, 0, 0], phrase match is [0, 1, 0, 0], and so on;
+- There are usually millions of campaigns in a sponsored search system. Simply converting campaign ids into a onehot vector would significantly increase the size of the model. One solution is to use a pair of companion features as exemplified in the table, where CampaignID is a one-hot representation consisting only of the top 10, 000 campaigns with the highest number of clicks. The 10, 000th slot (index starts from 0) is saved for all the remaining campaigns. Other campaigns are covered by CampaignIDCount, which is a numerical feature that stores per campaign statistics such as click through rate.
