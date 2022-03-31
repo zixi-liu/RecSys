@@ -6,3 +6,7 @@ Deep Crossing model is a deep neural network that automatically combines feature
 
 <img src="https://github.com/zixi-liu/Sparrow-Recsys/blob/main/Knowledge-Base/Img/deep-crossing.png" alt="deep-crossing" width = "600px" />
 
+### Transformation of raw features
+
+- **Combinatorial features (Cross features):** construct functions based on a combination of multiple features, and use their output as the input to a
+learner.
