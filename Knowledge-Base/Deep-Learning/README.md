@@ -53,3 +53,9 @@ Combinatorial features also have sparse and dense representations.
 ### Model Architecture
 
 The input is a set of individual features. The model has four types of layers including the Embedding, the Stacking, the Residual Unit, and the Scoring Layer. The objective function is log loss for our web-scale application but can be easily customized to soft-max or other functions.
+
+**Embedding and Stacking Layers**
+
+Embedding is applied per individual feature to transform the input features. The embedding layer consists of a single layer of a neural network, with the general form: XOj = max(0, Wj x Xij + bj ), where j indexes the individual feature, Xij ∈ Rnj is the input feature, Wj is an mj × nj matrix, b ∈ Rnj, and XOjis the embedded feature. When mj < nj , embedding is used to reduce the dimensionality of the input feature. The per element max operator is usually referred to as a rectified linear unit (ReLU) in the context of neural networks. 
+
+The output features are then stacked (concatenated) into one vector as the input to the next layer: XO = [XO0 , XO1 , · · · , XOK], where K is the number of input features.
