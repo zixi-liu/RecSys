@@ -39,3 +39,11 @@ Each individual feature Xi is represented as a vector.
 - For text features such as a query, one option is to convert the string into a tri-letter gram with 49, 292 dimensions;
 - Categorical input such as MatchType is represented by a one-hot vector, where exact match is [1, 0, 0, 0], phrase match is [0, 1, 0, 0], and so on;
 - There are usually millions of campaigns in a sponsored search system. Simply converting campaign ids into a onehot vector would significantly increase the size of the model. One solution is to use a pair of companion features as exemplified in the table, where CampaignID is a one-hot representation consisting only of the top 10, 000 campaigns with the highest number of clicks. The 10, 000th slot (index starts from 0) is saved for all the remaining campaigns. Other campaigns are covered by CampaignIDCount, which is a numerical feature that stores per campaign statistics such as click through rate.
+
+**Combinatorial Features**
+
+Given individual features Xi ∈ Rni and Xj ∈ Rnj, a combinatorial feature Xi,j is defined in Rni×Rnj.
+
+Combinatorial features also have sparse and dense representations. 
+- An example of sparse representation is a CampaignId×MatchType feature, which is a one-hot vector of 10, 001 × 4 = 40, 004 dimensions. 
+- An example of a dense representation counts how many ad clicks for a specific CampaignId and MatchType combination. The dimension for the dense representation is the same as its sparse counterpart.
