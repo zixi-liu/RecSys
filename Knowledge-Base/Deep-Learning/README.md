@@ -69,3 +69,8 @@ The Residual Unit is the basic building block of the [Residual Net](https://arxi
 Building Block of Residual Learning 
 
 <img src="https://github.com/zixi-liu/Sparrow-Recsys/blob/main/Knowledge-Base/Img/residual-learning.png" alt="residual-learning" width = "400px" />
+
+**A Deep Crossing Model with five layers of Residual Units, described in the CNTK modeling language**
+
+<img src="https://github.com/zixi-liu/Sparrow-Recsys/blob/main/Knowledge-Base/Img/deep-crossing-model.png" alt="deep-crossing-model" width = "400px" />
+
