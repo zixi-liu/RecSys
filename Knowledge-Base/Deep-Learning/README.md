@@ -1,3 +1,7 @@
+##### Table of Contents  
+[Embedding + MLP](## Embedding + MLP)  
+[Wide & Deep Learning](## Wide & Deep Learning)
+
 ## Embedding + MLP
 
 **Deep Crossing** [[KDD2016]](https://www.kdd.org/kdd2016/papers/files/adf0975-shanA.pdf)
