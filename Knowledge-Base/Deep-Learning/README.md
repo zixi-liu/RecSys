@@ -76,4 +76,4 @@ Building Block of Residual Learning
 
 ## Wide & Deep Learning
 
-Wide & Deep Learning[[ArXiv2016]](https://arxiv.org/pdf/1606.07792.pdf)
+Wide & Deep Learning [[ArXiv2016]](https://arxiv.org/pdf/1606.07792.pdf)
