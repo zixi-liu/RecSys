@@ -74,3 +74,4 @@ Building Block of Residual Learning
 
 <img src="https://github.com/zixi-liu/Sparrow-Recsys/blob/main/Knowledge-Base/Img/deep-crossing-model.png" alt="deep-crossing-model" width = "400px" />
 
+## Wide & Deep
