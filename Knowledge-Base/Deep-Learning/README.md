@@ -78,4 +78,4 @@ Building Block of Residual Learning
 
 Wide & Deep Learning [[ArXiv2016]](https://arxiv.org/pdf/1606.07792.pdf)
 
-<img src="https://github.com/zixi-liu/Sparrow-Recsys/blob/main/Knowledge-Base/Img/wide-deep.png" alt="wide-deep" width = "400px" />
+<img src="https://github.com/zixi-liu/Sparrow-Recsys/blob/main/Knowledge-Base/Img/wide-deep.png" alt="wide-deep" width = "800px" />
