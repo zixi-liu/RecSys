@@ -98,4 +98,4 @@ Embedding-based models, such as factorization machines or deep neural networks, 
 
 **Model Structure**
 
-<img src="https://github.com/zixi-liu/Sparrow-Recsys/blob/main/Knowledge-Base/Img/wide-deep-model.png" alt="wide-deep-model" width = "400px" />
+<img src="https://github.com/zixi-liu/Sparrow-Recsys/blob/main/Knowledge-Base/Img/wide-deep-model.png" alt="wide-deep-model"  />
