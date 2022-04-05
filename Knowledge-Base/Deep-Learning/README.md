@@ -78,7 +78,7 @@ Building Block of Residual Learning
 
 Wide & Deep Learning [[ArXiv2016]](https://arxiv.org/pdf/1606.07792.pdf)
 
-<img src="https://github.com/zixi-liu/Sparrow-Recsys/blob/main/Knowledge-Base/Img/wide-deep.png" alt="wide-deep" width = "800px" />
+<img src="https://github.com/zixi-liu/Sparrow-Recsys/blob/main/Knowledge-Base/Img/wide-deep.png" alt="wide-deep" width = "600px" />
 
 Wide & Deep learning—jointly trained wide linear models and deep neural networks—to combine the benefits of memorization and generalization for recommender systems.
 
@@ -98,4 +98,4 @@ Embedding-based models, such as factorization machines or deep neural networks, 
 
 **Model Structure**
 
-<img src="https://github.com/zixi-liu/Sparrow-Recsys/blob/main/Knowledge-Base/Img/wide-deep-model.png" alt="wide-deep-model"  />
+<img src="https://github.com/zixi-liu/Sparrow-Recsys/blob/main/Knowledge-Base/Img/wide-deep-model.png" alt="wide-deep-model" width = "600px"/>
