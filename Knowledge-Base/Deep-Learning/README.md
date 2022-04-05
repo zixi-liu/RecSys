@@ -79,3 +79,23 @@ Building Block of Residual Learning
 Wide & Deep Learning [[ArXiv2016]](https://arxiv.org/pdf/1606.07792.pdf)
 
 <img src="https://github.com/zixi-liu/Sparrow-Recsys/blob/main/Knowledge-Base/Img/wide-deep.png" alt="wide-deep" width = "800px" />
+
+Wide & Deep learning—jointly trained wide linear models and deep neural networks—to combine the benefits of memorization and generalization for recommender systems.
+
+- **Memorization** can be loosely defined as learning the frequent co-occurrence of items or features and exploiting the correlation available in the historical data.
+
+- **Generalization** is based on transitivity of correlation and explores new feature combinations that have never or rarely occurred in the past. Compared with memorization, generalization tends to improve the diversity of the recommended items.
+
+Embedding-based models, such as factorization machines or deep neural networks, can generalize to previously unseen query-item feature pairs by learning a low-dimensional dense embedding vector for each query and item feature, with less burden of feature engineering. However, it is difficult to learn effective low-dimensional representations for queries and items when the underlying query-item matrix is sparse and high-rank, such as users with specific preferences or niche items with a narrow appeal.
+
+**The Wide Component**
+
+- Generalized linear model of the form y = wT x + b
+
+**The Deep Component**
+
+- A feed-forward neural network. For categorical features, the original inputs are feature strings (e.g., “language=en”). Each of these sparse, high-dimensional categorical features are first converted into a low-dimensional and dense real-valued vector, often referred to as an embedding vector. The dimensionality of the embeddings are usually on the order of O(10) to O(100). The embedding vectors are initialized randomly and then the values are trained to minimize the final loss function during model training. These low-dimensional dense embedding vectors are then fed into the hidden layers of a neural network in the forward pass.
+
+**Model Structure**
+
+<img src="https://github.com/zixi-liu/Sparrow-Recsys/blob/main/Knowledge-Base/Img/wide-deep-model.png" alt="wide-deep-model" width = "400px" />
