@@ -1,6 +1,7 @@
 # Deep Learning Papers
 
 - [Embedding + MLP](#Embedding-+-MLP)
+- [Wide & Deep Learning](#Wide-&-Deep-Learning)
 
 ## Embedding + MLP
 
