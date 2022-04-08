@@ -1,9 +1,9 @@
 # Deep Learning Papers
 
-- [Embedding + MLP](#Embedding-+-MLP)
-- [Wide & Deep Learning](#Wide-&-Deep-Learning)
+- [Embedding + MLP](#Embedding-and-MLP)
+- [Wide & Deep Learning](#Wide-and-Deep-Learning)
 
-## Embedding + MLP
+## Embedding and MLP
 
 **Deep Crossing** [[KDD2016]](https://www.kdd.org/kdd2016/papers/files/adf0975-shanA.pdf)
 
@@ -79,7 +79,7 @@ Building Block of Residual Learning
 
 <img src="https://github.com/zixi-liu/Sparrow-Recsys/blob/main/Knowledge-Base/Img/deep-crossing-model.png" alt="deep-crossing-model" width = "400px" />
 
-## Wide & Deep Learning
+## Wide and Deep Learning
 
 Wide & Deep Learning [[ArXiv2016]](https://arxiv.org/pdf/1606.07792.pdf)
 
