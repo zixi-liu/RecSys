@@ -1,3 +1,7 @@
+# Deep Learning Papers
+
+- [Embedding + MLP](#Embedding-+-MLP)
+
 ## Embedding + MLP
 
 **Deep Crossing** [[KDD2016]](https://www.kdd.org/kdd2016/papers/files/adf0975-shanA.pdf)
