@@ -109,3 +109,5 @@ Embedding-based models, such as factorization machines or deep neural networks, 
 ## Neural CF
 
 Neural Collaborative Filtering [[ArXiv2017]](https://arxiv.org/pdf/1708.05031.pdf)
+
+NCF is generic and can express and generalize matrix factorization under its framework. To supercharge NCF modelling with non-linearities, we propose to leverage a multi-layer perceptron to learn the user–item interaction function.
