@@ -107,3 +107,5 @@ Embedding-based models, such as factorization machines or deep neural networks, 
 <img src="https://github.com/zixi-liu/Sparrow-Recsys/blob/main/Knowledge-Base/Img/wide-deep-model.png" alt="wide-deep-model" width = "600px"/>
 
 ## Neural CF
+
+Neural Collaborative Filtering [[ArXiv2017]](https://arxiv.org/pdf/1708.05031.pdf)
